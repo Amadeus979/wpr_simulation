@@ -1,0 +1,4 @@
+<launch>
+    <!-- <arg name="filename" value="/home/xry/Project/tutorial_ws/src/mycar_nav/map/nav" /> -->
+    <node name="map_save" pkg="map_server" type="map_saver" args="-f $(find wpr_simulation)/maps/map" />
+</launch>
